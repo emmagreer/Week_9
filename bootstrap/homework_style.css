@@ -1,0 +1,65 @@
+body{
+    /*background-color: red;*/
+}
+
+
+.blue{
+    background-color: cornflowerblue;
+    height: 50px;
+}
+.green{
+    background-color: greenyellow;
+    height: 150px;
+}
+
+
+.grey{
+    background-color: darkgray;
+    height: 100px;
+    float: left;
+    width: 50%;
+}
+
+.red{
+    background-color: red;
+    height: 300px;
+    float: down;
+
+}
+
+.greyboxes{
+    width: 50%;
+}
+
+.redbox{
+    width: 50%;
+}
+
+/* sm devices */ 
+@media (min-width: 576px){
+    body{
+        background-color: purple;
+    }
+}
+@media (min-width:768px){
+    body{
+        background-color: orange;
+    }
+        .grey{
+        height: 150px;
+}
+@media (min-width: 922){
+    body{
+        background-color: green;
+    }
+    .grey{
+        height: 150px;
+    }
+}
+
+/* xl */ 
+@media (min-width:1200px){
+    body{
+        background-color: blue;
+    }
+}
