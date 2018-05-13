@@ -10,6 +10,7 @@ body{
 .green{
     background-color: greenyellow;
     height: 150px;
+    min-width: inherit;
 }
 
 
@@ -27,6 +28,12 @@ body{
 
 }
 
+.pink{
+    background-color: pink;
+    height: 100px;
+    max-width: 30%;
+    
+}
 .greyboxes{
     width: 50%;
 }
@@ -39,6 +46,9 @@ body{
 @media (min-width: 576px){
     body{
         background-color: purple;
+    }
+    .greyboxes{
+        
     }
 }
 @media (min-width:768px){
@@ -55,11 +65,26 @@ body{
     .grey{
         height: 150px;
     }
+    
 }
 
 /* xl */ 
 @media (min-width:1200px){
     body{
         background-color: blue;
+    }
+        .green{
+        min-height: 600px;
+        float: left;
+    }
+    
+    .greyboxes{
+        min-width: 525px;
+        position: relative;
+    }
+    
+    .redbox{
+        min-width: 525px;
+        float: inherit;
     }
 }
